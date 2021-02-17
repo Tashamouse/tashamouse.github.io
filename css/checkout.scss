@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    background: #E5E5E5;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__search {
+    margin-left: 41px;
+    }
+    &__right a:not(:last-child) {
+    margin-right: 33px;
+    }
+}
+
+.header__right img {
+    transition: 0.2s;
+}
+
+.header__right img:hover {
+    transform: rotate(360deg);
+}
+
+
+.top {
+    background-color: #F8F3F4;
+    height: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__link__left {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.main {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.forms {
+    width: 360px;
+    &__title {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;   
+    }
+    &__input {
+        box-sizing: border-box;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 20px;
+        height: 45px;
+        width: 360px;        
+    }
+    &__gender {
+        display: flex;
+        margin-top: 31px;
+        margin-bottom: 33px;
+    }
+    &__gender p {
+         font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+        margin-right: 20px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        width: 360px;
+        margin-top: 15px;
+    }
+}
+
+.gender {
+    margin-right: 10px;
+}
+
+.checkout {
+    &__button {
+        margin-top: 39px;
+        width: 167px;
+    }
+}
+
+.button__join {
+    border: 1px solid #F26376;
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-decoration: none;
+    transition: 0.2s;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.button__j {
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__join:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
+.button__join:active {
+    border: 1px solid #F26376;
+}
+
+.button__svg path {
+    fill: #F26376;
+}
+
+.button__join:hover .button__svg path {
+    fill: #ffffff;
+}
+
+.perks {
+    max-width: 652px;
+    &__title {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    & p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-top: 22px;
+        margin-bottom: 21px;
+    }
+    &__li {
+        list-style: none;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+    &__img {
+        margin-right: 22px;
+    }
+}
+
+
+
+
+
+
+
+.bottom__subscribe {
+    background: url(img/photo_subscribe.png) 0 0/100% 100% no-repeat;
+    width: 100%;
+    height: 448px;
+}
+
+.bottom__subscribe__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 448px;
+}
+
+.bottom__subscribe__left {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom_photo {
+    margin-bottom: 30px;
+}
+
+.bottom__left__text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.bottom__subscribe__right {
+    width: 557px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.bottom__right__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.button_subscribe {
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.button_subscribe__left {
+    width: 256px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+    background-color: #E1E1E1;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+.button_subscribe__right {
+    height: 49px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button_subscribe__right_text {
+    width: 100px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F16D7F;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 0px 20px;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button_subscribe__right_text:hover, .button_subscribe__right_text:focus, .button_subscribe__right_text:active {
+    background-color: #e05c6e;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #222224;
+    height: 79px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+
+}
+
+.copyright {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon__box {
+    width: 31.5px;
+    height: 32px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__box:not(:last-child) {
+    margin-right: 7.29px;
+}
+
+.icon__svg path {
+    fill: black;
+}
+
+.icon__box:hover {
+    background-color: #F16D7F;
+}
+
+.icon__box:hover .icon__svg path {
+    fill: #ffffff;
+}
